@@ -5047,19 +5047,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.11.18":
-  version: 18.16.18
-  resolution: "@types/node@npm:18.16.18"
-  checksum: 1ad22342d1aaad446625e7eb2ca6137d0036fbc451fcb367c005ed4d6a102190bbba3d104652b2f9a73d0e520752b98fb89f22f5ef8fe09e8487bcb6fd75223f
-  languageName: node
-  linkType: hard
-
 "@types/node@npm:^20.11.16":
   version: 20.11.16
   resolution: "@types/node@npm:20.11.16"
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 4886b90278e9c877a84efd3edd4667cd990e032d77268d2a798b99ebc1901ea336fa7dfbe9eaf4ad6ad1da9ce2ec31baf300038a3905838692362eb19904ebde
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.9.0":
+  version: 20.11.29
+  resolution: "@types/node@npm:20.11.29"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: b839bad64b2d0e2b4a2d09a53c019ac06c732ac66ea88f3a86a9d2f28a789caf8fd56b888f577183459733abfa1b77e4bf6986cde18b2ec63e1939427aa0d387
   languageName: node
   linkType: hard
 
@@ -8610,16 +8612,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^28.2.0":
-  version: 28.2.0
-  resolution: "electron@npm:28.2.0"
+"electron@npm:^29.1.4":
+  version: 29.1.4
+  resolution: "electron@npm:29.1.4"
   dependencies:
     "@electron/get": "npm:^2.0.0"
-    "@types/node": "npm:^18.11.18"
+    "@types/node": "npm:^20.9.0"
     extract-zip: "npm:^2.0.1"
   bin:
     electron: cli.js
-  checksum: 6c4dbf84ce00556b80ac5a6da5d7b8e784d1c91ea3538221b86cedec154455f1bc3e1120adc9484f857f5334d5cbca050c8455cdd058538f0741239f576bc284
+  checksum: aa74131a22399026e041d2ea2b47827b7707b3f2daba72b4058047b48e88edbb08a472f4babe13b83bc47d269470a8d9bc7dae02cbd3fef64924d347558a32e8
   languageName: node
   linkType: hard
 
@@ -13081,7 +13083,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^6.20.0"
     "@typescript-eslint/parser": "npm:^6.20.0"
     concurrently: "npm:^8.2.2"
-    electron: "npm:^28.2.0"
+    electron: "npm:^29.1.4"
     electron-builder: "npm:24.9.1"
     electron-debug: "npm:^3.2.0"
     electron-devtools-installer: "npm:^3.2.0"
